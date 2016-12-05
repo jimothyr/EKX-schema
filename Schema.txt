@@ -23,12 +23,11 @@ Document (multiple)
 		
 		
 	-History
-		-publish date
+		-publishDate
 		-publication
-		-start date
-		-end date
+		-startDate
+		-endDate
 	
-	Meta
 	
 	-Funding
 		- Cost
