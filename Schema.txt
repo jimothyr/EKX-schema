@@ -54,3 +54,22 @@ glossary terms
 mentions - where on other pages???  - do we scrape for URLs...
 
 
+
+dublin core
+
+
+Title
+Creator
+Subject
+Description
+Publisher
+Contributor
+Date
+Type
+Format
+Identifier
+Source
+Language
+Relation
+Coverage
+Rights

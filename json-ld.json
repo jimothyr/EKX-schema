@@ -1,0 +1,13 @@
+{ 
+	"@id": "http://example.com/app-profile.json", 
+	"@context": 
+		{ 
+			"title": "http://purl.org/dc/terms/title", 
+			"description": "http://purl.org/dc/terms/description", 
+			"creator": "http://purl.org/dc/terms/creator" 
+		}, 
+	"title": "JSON-LD Dublin Core Application Profile", 
+	"description": "This is an example of a Dublin Core Application Profile as a JSON-LD. The point is to demonstrate that a JSON-LD context document could contain metadata. If it is desirable to annotate the use of particular properties they could theoretically fit into @graph using existing or a new DCAP vocabulary, etc.", 
+	"creator": "http://twitter.com/edsu", 
+	"@graph": [ ... add any details here about how particular properties are being used ... ]
+}
