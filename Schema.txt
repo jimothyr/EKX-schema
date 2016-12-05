@@ -1,0 +1,57 @@
+data source
+date
+hierarchy level
+
+Document (multiple)
+	-Person (multiple)
+		-Role (Author/project lead/associate/reviewer)
+		-Organsiation
+		-Name
+		-Position (job title)
+		-Social media (multiple)
+			-	Media
+			-Link
+	-Title
+	-Content
+		-Summary
+		-Abstract
+		-Full text
+		-References
+	-Location
+		-URI (eg DOI)
+		-URL (location of pdf)
+		
+		
+	-History
+		-publish date
+		-publication
+		-start date
+		-end date
+	
+	Meta
+	
+	-Funding
+		- Cost
+		-	 Organisation (multiple)
+			- Name
+			- URL
+			- Social media
+			
+		
+	-Keyword taxonomny (multiple)
+		-IEA taxomony
+		-UKERC taxonomy
+- Glossary terms
+	- Terms (multiple)
+	- Library (which glossary the terms come from)
+	
+		
+relationships
+	-where cited??
+	-
+		
+funding
+glossary terms
+mentions - where on other pages???  - do we scrape for URLs...
+
+
