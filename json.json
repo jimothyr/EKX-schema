@@ -1,241 +1,379 @@
 {
-  "EKX": {
-    "source": "UKERC",
-    "extract_date": "2016-12-13T00:00:00.000Z"
-  },
-  "item": [
-    {
-      "UID": "123sr512321s546r",
-      "ekx_meta": {
-        "funding": [
-          {
-            "cost": "£5000",
-            "organisation": "big corp"
-          }
-        ],
-        "Glossary": [
-          "energy from waste",
-          "ENA",
-          "burning"
-        ],
-        "Keywords": [
-          {
-            "source": "EIA",
-            "words": [
-              "energy",
-              "waste",
-              "potato"
-            ]
-          }
-        ]
-      },
-      "dc_meta": {
-        "dc_type": "text",
-        "dc_title": "How to make energy from burnin' stuff",
-        "dc_description": "short description",
-        "dc_abstract": "long version of the description, possibly with many lines sections and words",
-        "dc_subject": [
-          "waste",
-          "energy",
-          "energy from waste"
-        ],
-        "dc_coverage": [
-          "England",
-          "Wales"
-        ],
-        "dc_identifier": [
-          {
-            "url": "http://www.ena.com/document list/thisdocument.pdf",
-            "ISBN": {},
-            "DOI": {}
-          }
-        ],
-        "dc_relation": [
-          {
-            "parent_url": "http://www.ena.com/document list",
-            "parent_website": "http://www.ena.com",
-            "child_documents": [
-              {
-                "url": "1"
-              },
-              {
-                "url": "2"
-              }
-            ]
-          }
-        ],
-        "dc_date": [
-          {
-            "published": "2009-04-14T23:00:00.000Z",
-            "start": "2008-01-01T00:00:00.000Z",
-            "end": "2008-12-12T00:00:00.000Z"
-          }
-        ],
-        "dc_format": "PDF",
-        "dc_language": "EN",
-        "dc_rights": [
-          "public domain"
-        ],
-        "dc_source": {
-          "name": "Energy Networks Assocation",
-          "knownas": "ENA",
-          "url": "www.smarternetworks.org"
-        },
-        "dc_creator": {
-          "name": "Alan Smithee",
-          "organisation": "University of Life",
-          "contact": [
-            {
-              "type": "email",
-              "id": "me@me.com"
+    "EKX": {
+        "source": "UKERC",
+        "extract_date": "2016-12-13T00:00:00.000Z",
+        "data": {
+            "item": [{
+                "UID": "123sr512321s546r",
+                "ekx_meta": {
+                    "funding": [{
+                        "funded": "£5000",
+                        "organisation": "big corp"
+                    }],
+                    "Glossary": ["energy from waste","ENA","burning"],
+                    "Keywords": [{
+                        "source": "EIA",
+                        "words": ["energy","waste","potato"]
+                    }]
+                },
+                "dc_meta": {
+                    "dc_DCMIType": "text",
+                    "dc_title": "How to make energy from burnin' stuff",
+                    "dc_description": "short description",
+                    "dc_abstract": "long version of the description, possibly with many lines sections and words",
+                    "dc_subject": [
+                        "waste",
+                        "energy",
+                        "energy from waste"
+                    ],
+                    "dc_coverage": [
+                        "England",
+                        "Wales"
+                    ],
+                    "dc_identifier": [{
+                        "url": "http://www.ena.com/document list/thisdocument.pdf",
+                        "ISBN": {},
+                        "DOI": {}
+                    }],
+                    "dc_relation": [{
+                        "parent_url": "http://www.ena.com/document list",
+                        "parent_website": "http://www.ena.com",
+                        "child_documents": [{
+                            "url": "1"
+                        }, {
+                            "url": "2"
+                        }]
+                    }],
+                    "dc_date": [{
+                        "published": "2009-04-14T23:00:00.000Z",
+                        "start": "2008-01-01T00:00:00.000Z",
+                        "end": "2008-12-12T00:00:00.000Z"
+                    }],
+                    "dc_format": "PDF",
+                    "dc_language": "EN",
+                    "dc_rights": [
+                        "public domain"
+                    ],
+                    "dc_source": {
+                        "name": "Energy Networks Assocation",
+                        "knownas": "ENA",
+                        "url": "www.smarternetworks.org"
+                    },
+                    "dc_creator": {
+                        "name": "Alan Smithee",
+                        "organisation": "University of Life",
+                        "contact": [{
+                            "type": "email",
+                            "id": "me@me.com"
+                        }, {
+                            "type": "linkedin",
+                            "id": "01234568"
+                        }, {
+                            "type": "mobile",
+                            "id": "07777 885522"
+                        }]
+                    },
+                    "dc_contributor": [{
+                        "name": "Jane Smith",
+                        "organisation": "Another great institution",
+                        "contact": [{
+                            "type": "email",
+                            "id": "you@me.com"
+                        }, {
+                            "type": "linkedin",
+                            "id": "999999"
+                        }]
+                    }],
+                    "dc_publisher": {
+                        "name": "Energy Networks Assocation",
+                        "knownas": "ENA",
+                        "url": "www.smarternetworks.org"
+                    }
+                },
+                "ekx": {
+                    "ekx_funding": [{
+                        "cost": "£5000",
+                        "organisation": "big corp"
+                    }],
+                    "ekx_Glossary": [
+                        "energy from waste",
+                        "ENA",
+                        "burning"
+                    ],
+                    "ekx_Keywords": [{
+                        "source": "EIA",
+                        "words": [
+                            "energy",
+                            "waste",
+                            "potato"
+                        ]
+                    }]
+                },
+                "dc_meta": {
+                    "dc_type": "text",
+                    "dc_title": "How to make energy from burnin' stuff",
+                    "dc_description": "short description",
+                    "dc_abstract": "long version of the description, possibly with many lines sections and words",
+                    "dc_subject": [
+                        "waste",
+                        "energy",
+                        "energy from waste"
+                    ],
+                    "dc_coverage": {
+                    	"geographic_coverage":["England","Wales"],
+                    	"time_coverage":{"start":"01/01/2004","end":"03/12/2006"},
+                    	"sector":{}
+                    	},
+                    "dc_identifier": [{
+                        "url": "http://www.ena.com/document list/thisdocument.pdf",
+                        "ISBN": {},
+                        "DOI": {}
+                    }],
+                    "dc_relation": [{
+                        "parent_url": "http://www.ena.com/document list",
+                        "parent_website": "http://www.ena.com",
+                        "child_documents": [{
+                            "url": "1"
+                        }, {
+                            "url": "2"
+                        }]
+                    }],
+                    "dc_date": [{
+                        "published": "2009-04-14T23:00:00.000Z",
+                        "start": "2008-01-01T00:00:00.000Z",
+                        "end": "2008-12-12T00:00:00.000Z"
+                    }],
+                    "dc_format": "PDF",
+                    "dc_language": "EN",
+                    "dc_rights": [
+                        "public domain"
+                    ],
+                    "dc_source": {
+                        "name": "Energy Networks Assocation",
+                        "knownas": "ENA",
+                        "url": "www.smarternetworks.org"
+                    },
+                    "dc_creator": {
+                        "name": "Alan Smithee",
+                        "organisation": "University of Life",
+                        "contact": [{
+                            "type": "email",
+                            "id": "me@me.com"
+                        }, {
+                            "type": "linkedin",
+                            "id": "01234568"
+                        }, {
+                            "type": "mobile",
+                            "id": "07777 885522"
+                        }]
+                    },
+                    "dc_contributor": [{
+                        "name": "Jane Smith",
+                        "organisation": "Another great institution",
+                        "contact": [{
+                            "type": "email",
+                            "id": "you@me.com"
+                        }, {
+                            "type": "linkedin",
+                            "id": "999999"
+                        }]
+                    }],
+                    "dc_publisher": {
+                        "name": "Energy Networks Assocation",
+                        "knownas": "ENA",
+                        "url": "www.smarternetworks.org"
+                    }
+                }
             },
             {
-              "type": "linkedin",
-              "id": "01234568"
-            },
-            {
-              "type": "mobile",
-              "id": "07777 885522"
-            }
-          ]
-        },
-        "dc_contributor": [
-          {
-            "name": "Jane Smith",
-            "organisation": "Another great institution",
-            "contact": [
-              {
-                "type": "email",
-                "id": "you@me.com"
-              },
-              {
-                "type": "linkedin",
-                "id": "999999"
-              }
-            ]
-          }
-        ],
-        "dc_publisher": {
-          "name": "Energy Networks Assocation",
-          "knownas": "ENA",
-          "url": "www.smarternetworks.org"
+                "UID": "123sr512321s546r",
+                "ekx_meta": {
+                    "funding": [{
+                        "cost": "£10000",
+                        "organisation": "innovation fund"
+                    }],
+                    "Glossary": [
+                        "energy from waste",
+                        "ENA",
+                        "burning"
+                    ],
+                    "Keywords": [{
+                        "source": "EIA",
+                        "words": [
+                            "energy",
+                            "waste",
+                            "potato"
+                        ]
+                    }]
+                },
+                "dc_meta": {
+                    "dc_DCMIType": "text",
+                    "dc_title": "How to make energy from burnin' stuff",
+                    "dc_description": "short description",
+                    "dc_abstract": "long version of the description, possibly with many lines sections and words",
+                    "dc_subject": [
+                        "waste",
+                        "energy",
+                        "energy from waste"
+                    ],
+                    "dc_coverage": [
+                        "England",
+                        "Wales"
+                    ],
+                    "dc_identifier": [{
+                        "url": "http://www.ena.com/document list/thisdocument.pdf",
+                        "ISBN": {},
+                        "DOI": {}
+                    }],
+                    "dc_relation": [{
+                        "parent_url": "http://www.ena.com/document list",
+                        "parent_website": "http://www.ena.com",
+                        "child_documents": [{
+                            "url": "1"
+                        }, {
+                            "url": "2"
+                        }]
+                    }],
+                    "dc_date": [{
+                        "published": "2009-04-14T23:00:00.000Z",
+                        "start": "2008-01-01T00:00:00.000Z",
+                        "end": "2008-12-12T00:00:00.000Z"
+                    }],
+                    "dc_format": "PDF",
+                    "dc_language": "EN",
+                    "dc_rights": [
+                        "public domain"
+                    ],
+                    "dc_source": {
+                        "name": "Energy Networks Assocation",
+                        "knownas": "ENA",
+                        "url": "www.smarternetworks.org"
+                    },
+                    "dc_creator": {
+                        "name": "Alan Smithee",
+                        "organisation": "University of Life",
+                        "contact": [{
+                            "type": "email",
+                            "id": "me@me.com"
+                        }, {
+                            "type": "linkedin",
+                            "id": "01234568"
+                        }, {
+                            "type": "mobile",
+                            "id": "07777 885522"
+                        }]
+                    },
+                    "dc_contributor": [{
+                        "name": "Jane Smith",
+                        "organisation": "Another great institution",
+                        "contact": [{
+                            "type": "email",
+                            "id": "you@me.com"
+                        }, {
+                            "type": "linkedin",
+                            "id": "999999"
+                        }]
+                    }],
+                    "dc_publisher": {
+                        "name": "Energy Networks Assocation",
+                        "knownas": "ENA",
+                        "url": "www.smarternetworks.org"
+                    }
+                },
+                "ekx": {
+                    "ekx_funding": [{
+                        "cost": "£5000",
+                        "organisation": "big corp"
+                    }],
+                    "ekx_Glossary": [
+                        "energy from waste",
+                        "ENA",
+                        "burning"
+                    ],
+                    "ekx_Keywords": [{
+                        "source": "EIA",
+                        "words": [
+                            "energy",
+                            "waste",
+                            "potato"
+                        ]
+                    }]
+                },
+                "dc": {
+                    "dc_type": "text",
+                    "dc_title": "How to make energy from burnin' stuff",
+                    "dc_description": "short description",
+                    "dc_abstract": "long version of the description, possibly with many lines sections and words",
+                    "dc_subject": [
+                        "waste",
+                        "energy",
+                        "energy from waste"
+                    ],
+                    "dc_coverage": [
+                        "England",
+                        "Wales"
+                    ],
+                    "dc_identifier": [{
+                        "url": "http://www.ena.com/document list/thisdocument.pdf",
+                        "ISBN": {},
+                        "DOI": {}
+                    }],
+                    "dc_relation": [{
+                        "parent_url": "http://www.ena.com/document list",
+                        "parent_website": "http://www.ena.com",
+                        "child_documents": [{
+                            "url": "1"
+                        }, {
+                            "url": "2"
+                        }]
+                    }],
+                    "dc_date": [{
+                        "published": "2009-04-14T23:00:00.000Z",
+                        "start": "2008-01-01T00:00:00.000Z",
+                        "end": "2008-12-12T00:00:00.000Z"
+                    }],
+                    "dc_format": "PDF",
+                    "dc_language": "EN",
+                    "dc_rights": [
+                        "public domain"
+                    ],
+                    "dc_source": {
+                        "name": "Energy Networks Assocation",
+                        "knownas": "ENA",
+                        "url": "www.smarternetworks.org"
+                    },
+                    "dc_creator": {
+                        "name": "Alan Smithee",
+                        "organisation": "University of Life",
+                        "contact": [{
+                            "type": "email",
+                            "id": "me@me.com"
+                        }, {
+                            "type": "linkedin",
+                            "id": "01234568"
+                        }, {
+                            "type": "mobile",
+                            "id": "07777 885522"
+                        }]
+                    },
+                    "dc_contributor": [{
+                        "name": "Jane Smith",
+                        "organisation": "Another great institution",
+                        "contact": [{
+                            "type": "email",
+                            "id": "you@me.com"
+                        }, {
+                            "type": "linkedin",
+                            "id": "999999"
+                        }]
+                    }],
+                    "dc_publisher": {
+                        "name": "Energy Networks Assocation",
+                        "knownas": "ENA",
+                        "url": "www.smarternetworks.org"
+                    }
+                }
+            }]
         }
-      },
-      "ekx": {
-        "ekx_funding": [
-          {
-            "cost": "£5000",
-            "organisation": "big corp"
-          }
-        ],
-        "ekx_Glossary": [
-          "energy from waste",
-          "ENA",
-          "burning"
-        ],
-        "ekx_Keywords": [
-          {
-            "source": "EIA",
-            "words": [
-              "energy",
-              "waste",
-              "potato"
-            ]
-          }
-        ]
-      },
-      "dc": {
-        "dc_type": "text",
-        "dc_title": "How to make energy from burnin' stuff",
-        "dc_description": "short description",
-        "dc_abstract": "long version of the description, possibly with many lines sections and words",
-        "dc_subject": [
-          "waste",
-          "energy",
-          "energy from waste"
-        ],
-        "dc_coverage": [
-          "England",
-          "Wales"
-        ],
-        "dc_identifier": [
-          {
-            "url": "http://www.ena.com/document list/thisdocument.pdf",
-            "ISBN": {},
-            "DOI": {}
-          }
-        ],
-        "dc_relation": [
-          {
-            "parent_url": "http://www.ena.com/document list",
-            "parent_website": "http://www.ena.com",
-            "child_documents": [
-              {
-                "url": "1"
-              },
-              {
-                "url": "2"
-              }
-            ]
-          }
-        ],
-        "dc_date": [
-          {
-            "published": "2009-04-14T23:00:00.000Z",
-            "start": "2008-01-01T00:00:00.000Z",
-            "end": "2008-12-12T00:00:00.000Z"
-          }
-        ],
-        "dc_format": "PDF",
-        "dc_language": "EN",
-        "dc_rights": [
-          "public domain"
-        ],
-        "dc_source": {
-          "name": "Energy Networks Assocation",
-          "knownas": "ENA",
-          "url": "www.smarternetworks.org"
-        },
-        "dc_creator": {
-          "name": "Alan Smithee",
-          "organisation": "University of Life",
-          "contact": [
-            {
-              "type": "email",
-              "id": "me@me.com"
-            },
-            {
-              "type": "linkedin",
-              "id": "01234568"
-            },
-            {
-              "type": "mobile",
-              "id": "07777 885522"
-            }
-          ]
-        },
-        "dc_contributor": [
-          {
-            "name": "Jane Smith",
-            "organisation": "Another great institution",
-            "contact": [
-              {
-                "type": "email",
-                "id": "you@me.com"
-              },
-              {
-                "type": "linkedin",
-                "id": "999999"
-              }
-            ]
-          }
-        ],
-        "dc_publisher": {
-          "name": "Energy Networks Assocation",
-          "knownas": "ENA",
-          "url": "www.smarternetworks.org"
-        }
-      }
     }
-  ]
 }
