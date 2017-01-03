@@ -31,9 +31,9 @@
                     		"https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/48140/2208-glossary-emr-white-paper.pdf"
                     	],
                 "Keywords": [{
-                        "your_keywords": ["energy","waste","potato"],
-                     	"dc_subject": ["waste","energy","energy from waste"],
-                     	"dc_audience" :["SME","Inventor", "Investor","Researcher","Engineer","Large Business","Legal","Policy"],
+                        "your_keywords": [],//*//"energy","waste","potato"
+                     	"dc_subject": [], //*//"waste","energy","energy from waste"
+                     	"dc_audience" :[], //*//"SME","Inventor", "Investor","Researcher","Engineer","Large Business","Legal","Policy"
                      	"dc_coverage": {
                      	  		"Geographical":["England","Wales"],//if defined
                      			"Sector":["Commercial","Domestic"] //audence sector, if defined	
@@ -55,7 +55,7 @@
                             {"url": "2","ref":"ERC0005","author":"Mrs Jones"}
                             //author if known
                         	]
-                    }],        
+                    }],
                 "dc_creator": {//*//author or project lead
                         "primary": "Alan Smithee",
                         "organisation": "University of Life",
